@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CakeShop Leslies</title>
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<style type="text/css">
+		.quater{
+			width: 25%;
+			float: left;
+			background:#E0E4CC;
+			height: 600px
+		}
+		.threequarter{
+			width: 75%;
+			float: left;
+			font-weight: 500;
+			font-style: italic;
+		}
+		.whitequarter{
+			width: 25%;
+			float: left;
+		}
+		img{
+			width: 100%;
+			padding: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="quater">
+	<ul>
+		<li>Def Jam Poetry</li>
+		<li>A Play</li>
+		<li>Oldies Motor Show</li>
+		<li>Ms. Solange Live</li>
+	</ul>
+	</div>
+	<div class="threequarter">
+		<div class="whitequarter"><img src="defjam.jpg"><p>Def Jam</p></div>
+		<div class="whitequarter"><img src="othello.jpg"><p>Othello</p></div>
+		<div class="whitequarter"><img src="download.jpg"><p>Motorshow</p></div>
+		<div class="whitequarter"><img src="solange.jpg"><p>Solange his boo</p></div>
+	</div>
+
+
+</body>
+</html>
